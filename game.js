@@ -1,4 +1,4 @@
-const { User, Game, Transaction, LobbyGame } = require('models.js');
+const { User, Game, Transaction, LobbyGame } = require('./models');
 const mongoose = require('mongoose');
 
 const initialBoardArray = [
